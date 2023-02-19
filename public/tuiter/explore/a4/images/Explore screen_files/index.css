@@ -1,0 +1,63 @@
+#back-link {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    font-size: 13px;
+}
+
+#who-to-follow-header {
+    font-weight: bold;
+}
+
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+
+.fa-stack.wd-fa-stack-no-pad {
+    line-height: 1.25em;
+    width: 16px;
+}
+
+.wd-fs-13px {
+    font-size: 13px;
+}
+
+.wd-fs-15px {
+    font-size: 15px;
+}
+
+.wd-suggested-post-text-section {
+    float: left;
+    width: 80%;
+    min-width: 200px;
+    max-width: 600px;
+}
+
+.wd-suggested-post-picture-section {
+    width: 20%;
+    max-width: 100px;
+    min-width: 50px;
+}
+
+.wd-suggested-post-picture {
+    float: right;
+    max-width: 100px;
+    max-height: 100px;
+    min-width: 50px;
+    min-height: 50px;
+    border-radius: 10px;
+}

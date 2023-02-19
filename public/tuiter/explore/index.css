@@ -1,0 +1,114 @@
+#back-link {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    font-size: 13px;
+}
+
+#who-to-follow-header {
+    font-weight: bold;
+}
+
+#search-bar {
+    float: left;
+    width: 90%;
+}
+
+#search-bar-input::placeholder {
+    color: rgb(47, 51, 54);
+}
+
+#settings-link {
+    float: right;
+    color: rgb(29, 161, 242);
+}
+
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+.fa-stack.wd-fa-stack-no-pad {
+    line-height: 1.25em;
+    width: 16px;
+}
+
+.list-group-item.wd-custom-list-group-item {
+    border: none;
+}
+
+.wd-custom-tag.active {
+    background-color: rgb(29, 161, 242);
+    border-bottom: 2px solid rgb(29, 161, 242);
+    border-radius: 0px;
+}
+
+.input-group-text.wd-search-bar-icon {
+    border-color: rgb(47, 51, 54);
+    border-radius: 50px;
+    border-right: 0;
+    color: rgb(47, 51, 54);
+}
+
+.form-control.wd-search-bar-input {
+    border-color: rgb(47, 51, 54);
+    border-radius: 50px;
+    border-left: 0;
+}
+
+.wd-explore-settings {
+    float: right;
+    width: 10%;
+    min-width: fit-content;
+}
+
+.nav-link.wd-nav-link-custom-color {
+    color: white;
+}
+
+.nav-link.active.wd-nav-link-custom-color-active {
+    color: rgb(47, 51, 54);
+}
+
+
+.wd-fs-13px {
+    font-size: 13px;
+}
+
+.wd-fs-15px {
+    font-size: 15px;
+}
+
+.wd-suggested-post-text-section {
+    float: left;
+    width: 80%;
+    min-width: 200px;
+    max-width: 600px;
+}
+
+.wd-suggested-post-picture-section {
+    width: 20%;
+    max-width: 100px;
+    min-width: 50px;
+}
+
+.wd-suggested-post-picture {
+    float: right;
+    max-width: 100px;
+    max-height: 100px;
+    min-width: 50px;
+    min-height: 50px;
+    border-radius: 10px;
+}
