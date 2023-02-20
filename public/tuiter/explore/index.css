@@ -93,12 +93,13 @@ a:active {
 
 .wd-suggested-post-text-section {
     float: left;
-    width: 80%;
-    min-width: 200px;
+    width: 75%;
+    /* min-width: 200px; */
     max-width: 600px;
 }
 
 .wd-suggested-post-picture-section {
+    float: right;
     width: 20%;
     max-width: 100px;
     min-width: 50px;

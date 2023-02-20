@@ -1,0 +1,27 @@
+export default [
+    {
+        type: "withPicture",
+        userName: 'NASA',
+        userImg: "../images/nasa.jpg",
+        userHandle: 'NASA',
+        time: '2h',
+        caption: "It’s a great big universe\… Webb’s new view of Pandora’s Cluster stitches 4 snapshots together into a panorama, showing 3 separate galaxy clusters merging into a megacluster and some 50,000 sources of near-infrared light.",
+        image: '../images/webb-pandora-cluster.jpg',
+        numComments: "205",
+        numReTuits: "2357",
+        numLikes: "13.7K",
+    },
+    {
+        type: "linkedArticle",
+        userName: 'Washington Post',
+        userImg: "../images/washington-post-picture.jpg",
+        userHandle: 'WaPo',
+        time: '5h',
+        caption: "Snow is on the way! Read more to find out how to prepare.",
+        articleImage: '../images/snowy-trees.jpg',
+        articleTitle: "BLIZZAAAARRRDDDD",
+        articleCaption: "Includes 6 tips on how to calmly prepare yourself for the upcoming snowstorm.",
+        numReTuits: "157",
+        numLikes: "1201",
+    },
+];

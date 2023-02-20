@@ -1,0 +1,167 @@
+#back-link {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    font-size: 13px;
+}
+
+#user-photo {
+    width: 20%;
+    border-radius: 50%;
+    float: left;
+}
+
+#user-post-details {
+    position: relative;
+    width: 80%;
+    float: left;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+.fa-stack.wd-fa-stack-no-pad {
+    line-height: 1.25em;
+    width: 16px;
+}
+
+.list-group-item.wd-custom-list-group-item {
+    border: none;
+}
+
+.wd-fs-13px {
+    font-size: 13px;
+}
+
+.wd-fs-15px {
+    font-size: 15px;
+}
+
+.wd-suggested-post-text-section {
+    float: left;
+    width: 75%;
+    max-width: 600px;
+}
+
+.wd-suggested-post-picture-section {
+    float: right;
+    width: 20%;
+    max-width: 100px;
+    min-width: 50px;
+}
+
+.wd-suggested-post-picture {
+    float: right;
+    max-width: 100px;
+    max-height: 100px;
+    min-width: 50px;
+    min-height: 50px;
+    border-radius: 10px;
+}
+
+
+#user-post-details-primary {
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    float: left;
+}
+
+#user-post-details-secondary {
+    color: gray;
+    font-size: 15px;
+    float: left;
+    margin-left: 4px;
+}
+
+#user-post-caption {
+    float: left;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    margin-top: 4px;
+}
+
+#user-post-linked-article {
+    display: inline-block;
+    border: 1px solid rgb(47, 51, 54);
+    border-radius: 20px;
+    margin-top: 12px;
+    width: 100%;
+}
+
+#user-post-article-photo {
+    float: left;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom: 1px solid rgb(47, 51, 54);
+}
+
+#user-post-article-text {
+    float: left;
+    width: 100%;
+    font-size: 15px;
+    margin: 12px;
+}
+
+#user-post-article-title {
+    float: left;
+    color: white;
+}
+
+#user-post-article-caption {
+    float: left;
+    color: grey;
+    margin-top: 4px;
+}
+
+#user-post-statistics {
+    display: inline-block;
+    width: 100%;
+}
+
+
+#user-post-stat {
+    display: inline-block;
+    font-size: 13px;
+
+}
+
+#user-post-tuit-photo {
+    width: 100%;
+    float: right;
+}
+
+.wd-user-post-stat {
+    display: inline;
+    margin: 12px;
+    margin-right: 30px;
+}
+
+.wd-user-post-stat a {
+    color: gray;
+}
+
+.wd-user-post-stat p {
+    display: inline;
+    color: gray;
+    margin-right: 12px;
+}
+
+.wd-user-post-stat.wd-selected-stat a {
+    color: rgb(241, 67, 67);
+}

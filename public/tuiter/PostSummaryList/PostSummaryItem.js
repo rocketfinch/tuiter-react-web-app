@@ -61,7 +61,9 @@ const PostSummaryItem = (post) => {
             ${PostSummaryItemTitle(post)}
             ${PostSummaryItemTuits(post)}
         </div>
-        ${PostSummaryItemImage(post)}
+        <div class="mr-2">
+            ${PostSummaryItemImage(post)}
+        </div>
     </div>
     `);
 }
