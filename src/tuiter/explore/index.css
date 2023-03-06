@@ -1,0 +1,34 @@
+.wd-tabs li {
+    display: inline;
+}
+
+.wd-tabs {
+    padding-left: 0px;
+}
+
+.wd-selected {
+    border-bottom: 2px blue solid;
+    padding-bottom: 20px;
+}
+
+.wd-nudge-up {
+    bottom: 18px;
+    left: 25px;
+}
+
+.wd-bottom-2 {
+    bottom: 2px;
+}
+
+.wd-bottom-4 {
+    bottom: 4px;
+}
+
+
+.nav-link.wd-nav-link-custom-color {
+    color: rgb(29 161 242);
+}
+
+.nav-link.active.wd-nav-link-custom-color-active {
+    color: rgb(47, 51, 54);
+}

@@ -1,0 +1,68 @@
+#user-post-details-primary {
+    font-weight: bold;
+    font-size: 15px;
+    float: left;
+}
+
+#user-post-details-secondary {
+    font-size: 15px;
+    float: left;
+}
+
+
+#user-post-caption {
+    float: left;
+    font-size: 15px;
+    width: 100%;
+    margin-top: 4px;
+}
+
+
+#user-post-article-caption {
+    float: left;
+    color: grey;
+    margin-top: 4px;
+}
+
+#user-post-statistics {
+    display: inline-block;
+    align-items: center;
+    width: 100%;
+}
+
+
+#user-post-stat {
+    display: inline-block;
+    align-items: center;
+    font-size: 13px;
+
+}
+
+#user-post-tuit-photo {
+    width: 100%;
+    float: right;
+}
+
+.wd-user-post-stat {
+    display: inline;
+    margin: 12px;
+    margin-right: 30px;
+}
+
+.wd-user-post-stat a {
+    color: gray;
+}
+
+.wd-user-post-stat p {
+    display: inline;
+    /* color: gray; */
+    /* margin-right: 12px; */
+}
+
+.wd-user-post-stat.wd-selected-stat a {
+    color: rgb(241, 67, 67);
+}
+
+.wd-border-rounded {
+    border-radius: 2em;
+}

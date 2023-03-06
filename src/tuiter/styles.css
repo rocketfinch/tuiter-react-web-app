@@ -1,0 +1,41 @@
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+.list-group-item.wd-custom-list-group-item.active {
+    background-color: #1DA1F2;
+    border-color: #1DA1F2;
+}
+
+.wd-font-color-tuiter-blue {
+    color: #1DA1F2;
+}
+
+.btn-primary.wd-bg-color-tuiter-blue {
+    background-color: #1DA1F2;
+}
+
+.btn-primary.wd-border-color-tuiter-blue {
+    border-color: #1DA1F2;
+}
+
+
+.wd-fs-13px {
+    font-size: 13px;
+}
+
+.wd-fs-15px {
+    font-size: 15px;
+}
