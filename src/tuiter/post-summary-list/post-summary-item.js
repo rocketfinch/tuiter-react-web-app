@@ -44,7 +44,7 @@ const PostSummaryItem = (
                     {PostSummaryItemTuits(post)}
                 </div>
                 <div className="col-2 py-3 px-1">
-                    <img width={70} className="float-end rounded-3" src={`/tuiter/images/${post.image}`} />
+                    <img width={70} className="float-end rounded-3" alt="" src={`/tuiter/images/${post.image}`} />
                 </div>
             </div>
         </li>

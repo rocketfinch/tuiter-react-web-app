@@ -11,7 +11,7 @@ const NavigationSidebar = () => {
     return (
         <div>
             <div className="list-group my-1">
-                <a className="list-group-item list-group-item-action">
+                <a href="./#" className="list-group-item list-group-item-action">
                     <i className="bi bi-twitter wd-font-color-tuiter-blue py-1"></i></a>
                 <Link to="/tuiter/home/" className={`list-group-item list-group-item-action wd-custom-list-group-item
                         ${active === 'home' ? 'active' : ''}`}>
@@ -33,14 +33,14 @@ const NavigationSidebar = () => {
                         Labs
                     </span>
                 </Link>
-                <a href="#" className={`list-group-item list-group-item-action wd-custom-list-group-item
+                <a href="./#" className={`list-group-item list-group-item-action wd-custom-list-group-item
                         ${active === 'notifications' ? 'active' : ''}`}>
                     <i className="bi bi-bell-fill py-1" aria-hidden="true"></i>
                     <span className="float-left w-25 px-2 py-1 d-sm-none d-md-none d-lg-none d-xl-inline-block d-xxl-inline-block">
                         Notifications
                     </span>
                 </a>
-                <a href="#" className={`list-group-item list-group-item-action wd-custom-list-group-item
+                <a href="./#" className={`list-group-item list-group-item-action wd-custom-list-group-item
                         ${active === 'messages' ? 'active' : ''}`}>
                     <i className="bi bi-envelope-fill py-1" aria-hidden="true"></i>
                     <span className="float-left w-25 px-2 py-1 d-sm-none d-md-none d-lg-none d-xl-inline-block d-xxl-inline-block">
@@ -54,7 +54,7 @@ const NavigationSidebar = () => {
                         Bookmarks
                     </span>
                 </a>
-                <a href="#" className={`list-group-item list-group-item-action wd-custom-list-group-item
+                <a href="./#" className={`list-group-item list-group-item-action wd-custom-list-group-item
                         ${active === 'lists' ? 'active' : ''}`}>
                     <i className="bi bi-list-ul py-1" aria-hidden="true"></i>
                     <span className="float-left w-25 px-2 py-1 d-sm-none d-md-none d-lg-none d-xl-inline-block d-xxl-inline-block">
@@ -68,7 +68,7 @@ const NavigationSidebar = () => {
                         Profile
                     </span>
                 </a>
-                <a href="#" className={`list-group-item list-group-item-action wd-custom-list-group-item
+                <a href="./#" className={`list-group-item list-group-item-action wd-custom-list-group-item
                         ${active === 'more' ? 'active' : ''}`}>
                     <i className="bi bi-three-dots py-1" aria-hidden="true"></i>
                     <span className="float-left w-25 px-2 py-1 d-sm-none d-md-none d-lg-none d-xl-inline-block d-xxl-inline-block">

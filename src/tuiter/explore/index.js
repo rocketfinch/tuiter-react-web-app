@@ -21,20 +21,20 @@ const ExploreComponent = () => {
             <div id="tab-row" className="w-100 d-inline-block m-0">
                 <ul className="w-100 nav nav-tabs border-0 my-2">
                     <li className="nav-item d-flex justify-content-center float-left">
-                        <a className="nav-link wd-custom-tag active wd-nav-link-active-custom-color" href="#">For
+                        <a className="nav-link wd-custom-tag active wd-nav-link-active-custom-color" href="./#">For
                             you</a>
                     </li>
                     <li className="nav-item d-flex justify-content-center float-left">
-                        <a className="nav-link wd-nav-link-custom-color" href="#">Trending</a>
+                        <a className="nav-link wd-nav-link-custom-color" href="./#">Trending</a>
                     </li>
                     <li className="nav-item d-flex justify-content-center float-left">
-                        <a className="nav-link wd-nav-link-custom-color" href="#">News</a>
+                        <a className="nav-link wd-nav-link-custom-color" href="./#">News</a>
                     </li>
                     <li className="nav-item d-flex justify-content-center float-left">
-                        <a className="nav-link wd-nav-link-custom-color" href="#">Sports</a>
+                        <a className="nav-link wd-nav-link-custom-color" href="./#">Sports</a>
                     </li>
                     <li className="nav-item d-flex justify-content-center float-left">
-                        <a className="nav-link wd-nav-link-custom-color" href="#">Entertainment</a>
+                        <a className="nav-link wd-nav-link-custom-color" href="./#">Entertainment</a>
                     </li>
                 </ul>
             </div>
