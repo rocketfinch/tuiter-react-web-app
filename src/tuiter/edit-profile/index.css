@@ -1,0 +1,7 @@
+.wd-label-small-size {
+    font-size: 0.8em;
+}
+
+textarea.wd-textarea {
+    resize: none;
+}

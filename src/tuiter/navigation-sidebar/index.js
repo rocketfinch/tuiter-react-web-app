@@ -11,10 +11,10 @@ const NavigationSidebar = () => {
     return (
         <div>
             <div className="list-group my-1">
-                <a href="./#" className="list-group-item list-group-item-action">
+                <a href="/tuiter/" className="list-group-item list-group-item-action">
                     <i className="bi bi-twitter wd-font-color-tuiter-blue py-1"></i></a>
                 <Link to="/tuiter/home/" className={`list-group-item list-group-item-action wd-custom-list-group-item
-                        ${active === 'home' ? 'active' : ''}`}>
+                        ${(active === 'home' || active === "") ? 'active' : ''}`}>
                     <i className="bi bi-house-door-fill py-1" aria-hidden="true"></i>
                     <span className="float-left w-25 px-2 py-1 d-sm-none d-md-none d-lg-none d-xl-inline-block d-xxl-inline-block">
                         Home
@@ -61,13 +61,13 @@ const NavigationSidebar = () => {
                         Lists
                     </span>
                 </a>
-                <a href="profile.html" className={`list-group-item list-group-item-action wd-custom-list-group-item
-                    ${active === 'profile' ? 'active' : ''}`}>
+                <Link to="/tuiter/profile/" className={`list-group-item list-group-item-action wd-custom-list-group-item
+                    ${(active === 'profile' || active === "edit-profile") ? 'active' : ''}`}>
                     <i className="bi bi-person-fill py-1"></i>
                     <span className="float-left w-25 px-2 py-1 d-sm-none d-md-none d-lg-none d-xl-inline-block d-xxl-inline-block">
                         Profile
                     </span>
-                </a>
+                </Link>
                 <a href="./#" className={`list-group-item list-group-item-action wd-custom-list-group-item
                         ${active === 'more' ? 'active' : ''}`}>
                     <i className="bi bi-three-dots py-1" aria-hidden="true"></i>

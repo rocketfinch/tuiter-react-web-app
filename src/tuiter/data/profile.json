@@ -1,0 +1,17 @@
+[
+    {
+        "firstName": "Hannah",
+        "lastName": "Walsh",
+        "handle": "@hwalsh",
+        "profilePicture": "profile-image.jpg",
+        "bannerPicture": "tuiter-banner.png",
+        "bio": "Student, aspiring software engineer, and astronomy enthusiast. Retuits and likes are not endorsements.",
+        "website": "youtube.com/webdevtv",
+        "location": "Boston, MA",
+        "dateOfBirth": "7/7/1995",
+        "dateJoined": "4/1/2020",
+        "followingCount": 340,
+        "followersCount": 223,
+        "tuitsCount": 612
+    }
+]
